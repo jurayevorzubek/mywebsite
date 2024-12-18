@@ -3,4 +3,5 @@ from django.db import models
 # Create your models here.
 
 class Setting():
-    pass
+    def __str__(self):
+        return self.title
